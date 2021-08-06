@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MySocialMedia</string>
+    <string name="welcome_social_media">MySocialMedia Hoşgeldiniz</string>
+    <string name="sign_in">Giris Yap</string>
+    <string name="create_new_account">Yeni hesap oluştur</string>
+    <string name="example_gmail_com">Email</string>
+    <string name="password">Şifre</string>
+    <string name="nameAndSurname">Adı Soyadı</string>
+    <string name="confirm_password">Şifre Tekrar</string>
+    <string name="sign_up">Kayıt Ol</string>
+    <string name="sign_in_account">Hesabın var mı? Giriş yap</string>
+    <string name="userNick">Kullanıcı adı</string>
+    <string name="home">Ana Sayfa</string>
+    <string name="post">Hikaye Ekle</string>
+    <string name="profile">Profile</string>
+    <string name="type_comment">Yorum ekle</string>
+    <string name="comments">Yorumlar</string>
+
+</resources>

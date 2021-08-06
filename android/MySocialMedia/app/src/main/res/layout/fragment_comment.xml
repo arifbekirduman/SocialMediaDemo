@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="475dp"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:baselineAligned="false"
+
+    tools:context="com.example.mysocialmedia.fragment.CommentFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/comments"
+            android:textSize="@dimen/_16ssp"
+            android:gravity="center"
+            android:padding="@dimen/_5sdp"
+            android:layout_marginHorizontal="@dimen/_70sdp"
+            android:textColor="@color/primary_text"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/btnCancelFragmentComment"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="X" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_2sdp"
+        android:background="@color/shadow"
+         />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewCommentFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:weightSum="4"
+
+        android:padding="@dimen/_5sdp"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/etSendCommentCommentItemCard"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="3"
+            android:background="@drawable/background_input"
+            android:hint="@string/type_comment"
+            android:padding="@dimen/_8sdp"
+            />
+
+        <ImageView
+            android:id="@+id/imgSendCommentCommentItemCard"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+
+            android:src="@drawable/ic_send"
+            />
+
+    </LinearLayout>
+</LinearLayout>
